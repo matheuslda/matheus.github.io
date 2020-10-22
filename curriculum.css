@@ -1,0 +1,93 @@
+body {
+    color: white;
+    background-color: #23263A;
+}
+
+.header {
+    background-color: #1F2235;
+}
+
+.navbar {
+    background-color: #1F2235;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: #FF4A57;
+}
+
+#fixed {
+    position: fixed;
+    background-color: #FF4A57;
+    width: 222px;
+    left: 86.5%;
+    height: 222px;
+}
+
+@media(max-width: 768px) {
+    #fixed {
+        display: none;
+    }
+}
+
+main a {
+    color: white;
+}
+
+main a:hover {
+    text-decoration: none;
+    color: #FF4A57;
+}
+
+#skills hr {
+    height: 3px;
+}
+
+#skills button {
+    border-radius: 50px;
+    padding: 8px;
+    width: 100px;
+    color: white;
+    font-weight: 600;
+    border: solid 3px #FF4A57;
+    text-align: center;
+}
+
+img {
+    width: 175px;
+    height: 220px;
+}
+
+#nav-curriculo {
+    background-color: #1F2235;
+}
+
+footer {
+    background-color: #1f2235;
+    color: white;
+}
+
+i {
+    width: 75px;
+    height: 75px;
+}
+
+.btn-round {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1F2235;
+    color: white;
+}
+
+.btn-round:hover {
+    background-color: #FF4A57;
+    color: white;
+}
+
+#rodape {
+    background-color: #23263A;
+}

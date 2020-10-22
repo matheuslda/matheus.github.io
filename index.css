@@ -1,0 +1,73 @@
+.header {
+    background-color: #1F2235;
+}
+
+.navbar {
+    background-color: #1F2235;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: #FF4A57;
+}
+
+footer {
+    background-color: #1F2235;
+    color: white;
+}
+
+i {
+    width: 75px;
+    height: 75px;
+}
+
+.btn-round {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #080C21;
+    color: white;
+}
+
+.btn-round:hover {
+    background-color: #1F2235;
+    color: white;
+}
+
+#rodape {
+    background-color: #23263A;
+}
+
+#navbar-footer {}
+
+#rodape {
+    background-color: #080C21;
+}
+
+.div {
+    background-color: #FF4A57;
+    width: 222px;
+    height: 222px;
+    text-align: center;
+    position: fixed;
+    left: 91.3%;
+    top: 7.8%;
+    z-index: 2;
+}
+
+#fixed {
+    position: fixed;
+    background-color: #FF4A57;
+    width: 222px;
+    left: 86.5%;
+    height: 222px;
+}
+
+@media(max-width: 768px) {
+    #fixed {
+        display: none;
+    }
+}
